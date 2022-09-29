@@ -1,0 +1,9 @@
+html,
+body {
+display: flex;
+justify-content: center;
+align-content: center;
+background-color: black;
+margin: 0 auto;
+padding: 0;
+}

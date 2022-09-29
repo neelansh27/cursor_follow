@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Eyes</title>
+  </head>
+  <style type="text/css" media="screen">
+    html,
+    body {
+      background-color: black;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+    #back {
+      background: url("rick_morty.png") no-repeat;
+      background-size: contain;
+      width: 200px;
+      height: 200px;
+      margin-top: 200px;
+    }
+    .eye {
+      position: relative;
+      width: 15px;
+      border-radius: 20px;
+    }
+  </style>
+
+  <body>
+    <span id="back">
+      <img
+        class="eye"
+        alt="eye"
+        style="top: 107px; left: 64px"
+        src="eyes.png"
+      />
+      <img
+        class="eye"
+        alt="eye"
+        style="top: 103px; left: 67px"
+        src="eyes.png"
+      />
+      <img class="eye" alt="eye" style="top: 56px; left: 76px" src="eyes.png" />
+      <img class="eye" alt="eye" style="top: 55px; left: 79px" src="eyes.png" />
+    </span>
+    <script type="text/javascript" src="events.js"></script>
+  </body>
+</html>
